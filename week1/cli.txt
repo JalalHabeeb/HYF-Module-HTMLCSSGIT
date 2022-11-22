@@ -1,0 +1,6 @@
+hiddem file: touch .file
+hiddem folder mkdir .folder
+display: ls -a
+multiple nested directories: mkdir -p folder1/folder2/folder3
+echo 'first message' > file.txt
+echo 'second message >> file.txt

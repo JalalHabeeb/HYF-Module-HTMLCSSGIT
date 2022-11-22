@@ -1,0 +1,165 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Titillium Web', sans-serif;
+    background-color: black;
+    margin: 10px 0;
+}
+
+a{
+    color:aliceblue;
+    text-decoration: none;
+}
+
+/*Container*/
+
+.container{
+    margin: 0 auto;
+    width: 80%;
+    color:aliceblue;
+}
+
+/*Nav*/
+
+nav {
+    width: 100%;
+    height: 200px;
+    margin-bottom: 20px;
+}
+
+.image{
+    float: left;
+    width: 200px;
+    clip-path: polygon(70% 0, 100% 60%, 60% 100%, 0 40%);
+}
+
+.list {
+    text-align: center;
+    justify-content: space-between;
+    width: 80%;
+    display: flex;
+    align-items: stretch;
+    padding: 0 5%;
+    height: 200px;
+    line-height: 200px;
+
+}
+
+.list li{
+    list-style: none;
+    display: block;
+    flex: 0 1 auto;
+    font-size: 40px;
+}
+
+
+.list li a{
+  color: white;
+  border: 3px solid white;
+  border-radius:15px;
+  padding: 5px 5px;
+  font-size: 30px;
+  font-family: tahoma;
+  letter-spacing:2px;
+  cursor: pointer;
+  font-weight: bold;
+  transition: .5s;
+}
+
+.list li a:hover{
+    color: black;
+    background-color: #b5f8fa;
+    filter: drop-shadow(0 0 20px #b5f8fa) contrast(2) brightness(2);
+}
+
+/*Section*/
+article{
+    margin-left: 50%;
+    transform: translateX(-50%);
+    margin-bottom: 50px;
+    font-size: 1.2em;
+    border: 1px solid gray;
+    border-radius: 10px;
+    padding: 10px;
+
+}
+
+article:hover{
+    box-shadow: 1px 2px 5px white;
+}
+
+.articleHead{
+    text-align: center;
+}
+
+article h1{
+    margin-bottom: 10px;
+}
+
+/*Personal Info*/
+article.personal  img{
+    margin-right: 20px;
+    width: 20px;
+}
+
+address{
+    font-style: normal;
+}
+
+article.personal p{
+    height: 40px;
+    line-height: 40px;
+    margin-bottom: 5px;
+}
+
+.personal a:hover {
+    font-weight: bolder;
+}
+
+
+/*Education*/
+
+article.education img{
+    margin-right: 20px;
+    width: 40px;
+}
+
+/*Work*/
+article.work img{
+    margin-right: 20px;
+    width: 40px;
+}
+
+article.work ul li{
+    list-style-type: none;
+}
+
+/*Social*/
+
+.social ul{
+    justify-content: space-between;
+    display: flex;
+    padding: 0 20px;
+}
+
+.social ul li{
+    list-style-type: none;
+    display: inline;
+}
+
+.social ul li img{
+    width: 50px;
+}
+.social ul li img:hover{
+    filter: drop-shadow(0 0 5px white);
+}
+/*Footer*/
+footer{
+    text-align:  center;
+    font-size: 0.8em;
+}
